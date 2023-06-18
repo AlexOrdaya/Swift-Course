@@ -12,6 +12,7 @@
 		1CDBC3372A3E14F200CF20FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CDBC3362A3E14F200CF20FE /* Assets.xcassets */; };
 		1CDBC33A2A3E14F200CF20FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CDBC3382A3E14F200CF20FE /* LaunchScreen.storyboard */; };
 		1CDBC3442A3E1B9200CF20FE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDBC3432A3E1B9200CF20FE /* LoginView.swift */; };
+		1CDBC3472A3F524400CF20FE /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDBC3462A3F524400CF20FE /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1CDBC3392A3E14F200CF20FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CDBC33B2A3E14F200CF20FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CDBC3432A3E1B9200CF20FE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1CDBC3462A3F524400CF20FE /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		1CDBC32C2A3E14F100CF20FE /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
+				1CDBC3452A3F51D200CF20FE /* Onboarding */,
 				1CDBC32D2A3E14F100CF20FE /* AppDelegate.swift */,
 				1CDBC3412A3E1AF400CF20FE /* Files */,
 				1CDBC3422A3E1B0200CF20FE /* Login */,
@@ -78,6 +81,14 @@
 				1CDBC3432A3E1B9200CF20FE /* LoginView.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		1CDBC3452A3F51D200CF20FE /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				1CDBC3462A3F524400CF20FE /* OnboardingViewController.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 				1CDBC3442A3E1B9200CF20FE /* LoginView.swift in Sources */,
 				1CDBC3322A3E14F100CF20FE /* LoginViewController.swift in Sources */,
 				1CDBC32E2A3E14F100CF20FE /* AppDelegate.swift in Sources */,
+				1CDBC3472A3F524400CF20FE /* OnboardingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
